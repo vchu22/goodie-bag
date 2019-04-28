@@ -19,6 +19,7 @@ module.exports = db.define('candy', {
   },
   imageUrl: {
     type: Sequelize.STRING,
-    defaultValue: 'http://docs.sequelizejs.com/manual/asset/logo-small.png',
+    defaultValue:
+      'https://images-na.ssl-images-amazon.com/images/I/61LHIX2WJzL._SL1000_.jpg',
   },
 });
